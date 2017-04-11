@@ -1,0 +1,24 @@
+{
+  "name": "custom-element-theme",
+  "version": "1.0.0",
+  "description": "Custom element component theme for xiachufang",
+  "main": "theme/index.css",
+  "style": "theme/index.css",
+  "scripts": {
+    "build": "node_modules/.bin/et",
+    "dev": "node_modules/.bin/et -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiachufang/custom-element-theme.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiachufang/custom-element-theme/issues"
+  },
+  "homepage": "https://github.com/xiachufang/custom-element-theme#readme",
+  "devDependencies": {
+    "element-theme": "^0.7.1",
+    "element-theme-default": "^1.2.8"
+  }
+}
