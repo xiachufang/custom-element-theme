@@ -86,6 +86,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 @charset "UTF-8";
 :root{
@@ -174,6 +176,8 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }
 .el-select-dropdown{
@@ -310,6 +314,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .el-input{
     position: relative;
@@ -346,7 +352,7 @@
     border: 1px solid rgb(191, 211, 217);
     box-sizing: border-box;
     color: rgb(31, 54, 61);
-    display: block;
+    display: inline-block;
     font-size: inherit;
     height: 36px;
     line-height: 1;
@@ -436,14 +442,14 @@
     border: 1px solid rgb(191, 211, 217);
     border-radius: 4px;
     padding: 0 10px;
-    width: 1%;
+    width: 1px;
     white-space: nowrap;
 }
 .el-input-group__append .el-select, .el-input-group__append .el-button, .el-input-group__prepend .el-select, .el-input-group__prepend .el-button{
     display: block;
     margin: -10px;
 }
-.el-input-group__append .el-button, .el-input-group__append .el-select .el-input__inner, .el-input-group__append .el-select:hover .el-input__inner, .el-input-group__prepend .el-button, .el-input-group__prepend .el-select .el-input__inner, .el-input-group__prepend .el-select:hover .el-input__inner{
+.el-input-group__append button.el-button, .el-input-group__append div.el-select .el-input__inner, .el-input-group__append div.el-select:hover .el-input__inner, .el-input-group__prepend button.el-button, .el-input-group__prepend div.el-select .el-input__inner, .el-input-group__prepend div.el-select:hover .el-input__inner{
     border-color: transparent;
     background-color: transparent;
     color: inherit;
@@ -609,6 +615,8 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }
 .el-tag{
@@ -790,6 +798,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .el-select-dropdown{}
 .el-select-dropdown__item{
@@ -805,7 +815,7 @@
     box-sizing: border-box;
     cursor: pointer;
 }
-.el-select-dropdown__item.hover{
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
     background-color: rgb(228, 236, 241);
 }
 .el-select-dropdown__item.selected{
@@ -912,6 +922,8 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }
 .el-select-group{
@@ -1021,6 +1033,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .el-scrollbar{
     overflow: hidden;
@@ -1086,6 +1100,7 @@
 
 .el-select .el-input__inner{
     cursor: pointer;
+    padding-right: 35px;
 }
 
 .el-select .el-input__inner:focus{
@@ -1291,5 +1306,7 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }

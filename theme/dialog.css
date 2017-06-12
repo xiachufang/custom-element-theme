@@ -86,6 +86,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .v-modal-enter{
     animation: v-modal-in .2s ease;
@@ -160,12 +162,20 @@
     padding: 20px 20px 0;
 }
 
-.el-dialog__close{
+.el-dialog__headerbtn{
+    float: right;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
     cursor: pointer;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
     color: rgb(191, 211, 217);
 }
 
-.el-dialog__close:hover{
+.el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close{
     color: #00bcd4;
 }
 
@@ -180,10 +190,6 @@
     padding: 30px 20px;
     color: rgb(72, 97, 106);
     font-size: 14px;
-}
-
-.el-dialog__headerbtn{
-    float: right;
 }
 
 .el-dialog__footer{
@@ -307,5 +313,7 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }

@@ -86,6 +86,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 
 .el-radio-button{
@@ -121,9 +123,6 @@
     position: relative;
     cursor: pointer;
     transition: all .3s cubic-bezier(.645,.045,.355,1);
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
     padding: 10px 15px;
     font-size: 14px;
     border-radius: 0
@@ -278,5 +277,7 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }

@@ -86,6 +86,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 
 .el-switch{
@@ -114,9 +116,9 @@
     color: rgb(250, 254, 254) !important
 }
 
-.el-switch.is-disabled .el-switch__input:checked + .el-switch__core{
-    border-color: rgb(228, 236, 241);
-    background-color: rgb(228, 236, 241);
+.el-switch.is-checked .el-switch__core{
+    border-color: #00bcd4;
+    background-color: #00bcd4;
 }
 
 .el-switch.is-disabled{}
@@ -160,11 +162,6 @@
 
 .el-switch__input{
     display: none
-}
-
-.el-switch__input:checked + .el-switch__core{
-    border-color: #00bcd4;
-    background-color: #00bcd4
 }
 
 .el-switch__core{
@@ -288,5 +285,7 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }

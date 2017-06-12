@@ -85,6 +85,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -174,11 +176,20 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
+/* DEPRECATED */
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
     transition: opacity 200ms linear;
 }
 .fade-in-linear-enter, .fade-in-linear-leave, .fade-in-linear-leave-active {
+    opacity: 0;
+}
+.el-fade-in-linear-enter-active, .el-fade-in-linear-leave-active {
+    transition: opacity 200ms linear;
+}
+.el-fade-in-linear-enter, .el-fade-in-linear-leave, .el-fade-in-linear-leave-active {
     opacity: 0;
 }
 .el-fade-in-enter-active, .el-fade-in-leave-active {
@@ -217,10 +228,10 @@
 .collapse-transition {
     transition: 0.3s height ease-in-out, 0.3s padding-top ease-in-out, 0.3s padding-bottom ease-in-out;
 }
-.list-enter-active, .list-leave-active {
+.el-list-enter-active, .el-list-leave-active {
     transition: all 1s;
 }
-.list-enter, .list-leave-active {
+.el-list-enter, .el-list-leave-active {
     opacity: 0;
     transform: translateY(-30px);
 }
@@ -335,13 +346,12 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .el-time-spinner {}
 .el-time-spinner.has-seconds .el-time-spinner__wrapper {
     width: 33%;
-}
-.el-time-spinner.has-seconds .el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default) {
-    padding-bottom: 15px;
 }
 .el-time-spinner.has-seconds .el-time-spinner__wrapper:nth-child(2) {
     margin-left: 1%;
@@ -353,6 +363,9 @@
     width: 50%;
     vertical-align: top;
     position: relative;
+}
+.el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default) {
+    padding-bottom: 15px;
 }
 .el-time-spinner__list {
     padding: 0;
@@ -468,6 +481,8 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }
 .el-time-panel {
@@ -633,6 +648,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -669,7 +686,7 @@
     border: 1px solid rgb(191, 211, 217);
     box-sizing: border-box;
     color: rgb(31, 54, 61);
-    display: block;
+    display: inline-block;
     font-size: inherit;
     height: 36px;
     line-height: 1;
@@ -759,14 +776,14 @@
     border: 1px solid rgb(191, 211, 217);
     border-radius: 4px;
     padding: 0 10px;
-    width: 1%;
+    width: 1px;
     white-space: nowrap;
 }
 .el-input-group__append .el-select, .el-input-group__append .el-button, .el-input-group__prepend .el-select, .el-input-group__prepend .el-button {
     display: block;
     margin: -10px;
 }
-.el-input-group__append .el-button, .el-input-group__append .el-select .el-input__inner, .el-input-group__append .el-select:hover .el-input__inner, .el-input-group__prepend .el-button, .el-input-group__prepend .el-select .el-input__inner, .el-input-group__prepend .el-select:hover .el-input__inner {
+.el-input-group__append button.el-button, .el-input-group__append div.el-select .el-input__inner, .el-input-group__append div.el-select:hover .el-input__inner, .el-input-group__prepend button.el-button, .el-input-group__prepend div.el-select .el-input__inner, .el-input-group__prepend div.el-select:hover .el-input__inner {
     border-color: transparent;
     background-color: transparent;
     color: inherit;
@@ -933,6 +950,8 @@
   --------------------------*/
     /* Collapse
   --------------------------*/
+    /* Transfer
+  --------------------------*/
 }
 .el-scrollbar {
     overflow: hidden;
@@ -1072,5 +1091,7 @@
     /* Carousel
   --------------------------*/
     /* Collapse
+  --------------------------*/
+    /* Transfer
   --------------------------*/
 }
